@@ -3290,3 +3290,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Aug2025 01:21:26.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Take Aim]
 [10Aug2025 01:21:54.993] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Aug2025 01:21:55.003] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Aug2025 01:26:55.022] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Aug2025 01:26:55.035] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Aug2025 01:28:24.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was shot by Skeleton
+[10Aug2025 01:28:25.280] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[10Aug2025 01:28:25.285] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[10Aug2025 01:31:54.988] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Aug2025 01:31:54.998] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
