@@ -194,3 +194,6 @@
 [10Aug2025 00:50:56.671] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@480faf2f[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:40841) lost connection: Disconnected
 [10Aug2025 00:51:31.666] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@435e488d[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:38953) lost connection: Disconnected
 [10Aug2025 00:52:25.266] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@38708c17[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:39405) lost connection: Disconnected
+[10Aug2025 00:57:33.084] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.206.144.97:42837] logged in with entity id 571 at (156.30000001192093, -40.0, -574.4165905839075)
+[10Aug2025 00:57:33.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
+[10Aug2025 00:57:33.102] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
