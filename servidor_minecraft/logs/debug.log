@@ -3341,3 +3341,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Aug2025 03:03:21.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
 [10Aug2025 03:06:54.969] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Aug2025 03:06:54.978] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Aug2025 03:08:13.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10Aug2025 03:08:13.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
+[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: out<--[HERE]
+[10Aug2025 03:11:54.971] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Aug2025 03:11:54.979] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Aug2025 03:16:54.970] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Aug2025 03:16:54.981] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

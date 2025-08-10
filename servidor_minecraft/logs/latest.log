@@ -207,3 +207,7 @@
 [10Aug2025 02:29:30.169] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
 [10Aug2025 03:03:21.221] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
 [10Aug2025 03:03:21.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
+[10Aug2025 03:08:13.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10Aug2025 03:08:13.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
+[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: out<--[HERE]
