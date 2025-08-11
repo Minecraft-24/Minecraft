@@ -273,3 +273,27 @@
 [11Aug2025 23:29:19.779] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:60161] logged in with entity id 15808 at (241.37793864701382, 75.0, -542.9108192192276)
 [11Aug2025 23:29:19.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [11Aug2025 23:29:19.825] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 23:29:49.872] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[11Aug2025 23:29:49.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[11Aug2025 23:30:03.532] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:44173] logged in with entity id 15881 at (241.37793864701382, 75.0, -542.9108192192276)
+[11Aug2025 23:30:03.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[11Aug2025 23:30:03.610] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 23:30:33.673] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[11Aug2025 23:30:33.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[11Aug2025 23:31:18.435] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:60663] logged in with entity id 16031 at (241.37793864701382, 75.0, -542.9108192192276)
+[11Aug2025 23:31:18.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[11Aug2025 23:31:18.489] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 23:35:14.246] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion moved too quickly! -9.768126016635904,2.176759275064242,-0.8565052910978466
+[11Aug2025 23:35:48.872] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[11Aug2025 23:35:48.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[11Aug2025 23:36:22.773] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7f6067a8[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:43993) lost connection: Disconnected
+[11Aug2025 23:36:25.528] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@412b8d6b[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:44627) lost connection: Disconnected
+[11Aug2025 23:36:32.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:37935] logged in with entity id 16763 at (196.75856761143785, 49.0, -535.1755095872325)
+[11Aug2025 23:36:32.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[11Aug2025 23:36:32.872] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 23:38:18.025] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[11Aug2025 23:38:18.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[11Aug2025 23:38:49.722] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1ed2801a[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:58803) lost connection: Disconnected
+[11Aug2025 23:38:59.184] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:58569] logged in with entity id 17144 at (199.79844075491454, 69.10360926093821, -517.2438636143363)
+[11Aug2025 23:38:59.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[11Aug2025 23:38:59.262] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
