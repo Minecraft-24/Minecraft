@@ -254,3 +254,6 @@
 [11Aug2025 22:51:31.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:56051] logged in with entity id 10433 at (242.5, 75.0, -542.5)
 [11Aug2025 22:51:31.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [11Aug2025 22:51:31.173] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 23:16:59.153] [Worker-Main-16/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[11Aug2025 23:17:02.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [We Need to Go Deeper]
+[11Aug2025 23:17:08.077] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9215ms or 184 ticks behind
