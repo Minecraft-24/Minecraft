@@ -1,213 +1,213 @@
-[10Aug2025 00:45:58.264] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[10Aug2025 00:45:58.283] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[10Aug2025 00:45:59.489] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[10Aug2025 00:45:59.567] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[10Aug2025 00:46:00.045] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[10Aug2025 00:46:00.046] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[10Aug2025 00:46:00.048] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[10Aug2025 00:46:00.049] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[10Aug2025 00:46:00.302] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[10Aug2025 00:46:03.770] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[10Aug2025 00:46:04.011] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[10Aug2025 00:46:04.067] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Aug2025 00:46:04.297] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 102 options available, 0 override(s) found
-[10Aug2025 00:46:07.177] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[10Aug2025 00:46:16.513] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[10Aug2025 00:46:16.532] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[10Aug2025 00:46:17.054] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
-[10Aug2025 00:46:17.134] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.136] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.136] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.137] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.137] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.140] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.140] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[10Aug2025 00:46:17.344] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[10Aug2025 00:46:17.665] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class me.adda.enhanced_falling_trees.FallingTrees
-[10Aug2025 00:46:17.697] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[10Aug2025 00:46:17.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id efallingtrees:config_packet
-[10Aug2025 00:46:17.878] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
-[10Aug2025 00:46:18.364] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[10Aug2025 00:46:18.513] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[10Aug2025 00:46:18.513] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[10Aug2025 00:46:19.143] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[10Aug2025 00:46:19.157] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[10Aug2025 00:46:19.161] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[10Aug2025 00:46:19.168] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[10Aug2025 00:46:19.474] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[10Aug2025 00:46:19.706] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
-[10Aug2025 00:46:20.152] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[10Aug2025 00:46:20.153] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[10Aug2025 00:46:20.154] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[10Aug2025 00:46:20.154] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[10Aug2025 00:46:20.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AgeOfWeapons.json
-[10Aug2025 00:46:20.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Found status: UP_TO_DATE Current: 1.3.2c Target: null
-[10Aug2025 00:46:20.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[10Aug2025 00:46:20.732] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[10Aug2025 00:46:20.734] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[10Aug2025 00:46:20.739] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[10Aug2025 00:46:20.740] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[10Aug2025 00:46:20.782] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[10Aug2025 00:46:20.783] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[10Aug2025 00:46:20.874] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[10Aug2025 00:46:20.899] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[10Aug2025 00:46:20.904] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[10Aug2025 00:46:20.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[10Aug2025 00:46:20.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[10Aug2025 00:46:20.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[10Aug2025 00:46:20.943] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[10Aug2025 00:46:20.959] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[10Aug2025 00:46:21.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[10Aug2025 00:46:21.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[10Aug2025 00:46:21.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
-[10Aug2025 00:46:21.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[10Aug2025 00:46:21.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[10Aug2025 00:46:21.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
-[10Aug2025 00:46:21.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
-[10Aug2025 00:46:21.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[10Aug2025 00:46:22.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[10Aug2025 00:46:23.927] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10Aug2025 00:46:25.100] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
-[10Aug2025 00:46:25.102] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
-[10Aug2025 00:46:26.013] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[10Aug2025 00:46:29.366] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
-[10Aug2025 00:46:29.369] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
-[10Aug2025 00:46:29.371] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
-[10Aug2025 00:46:29.374] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
-[10Aug2025 00:46:29.376] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
-[10Aug2025 00:46:29.378] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
-[10Aug2025 00:46:29.380] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
-[10Aug2025 00:46:29.382] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
-[10Aug2025 00:46:29.384] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
-[10Aug2025 00:46:29.385] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
-[10Aug2025 00:46:29.387] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
-[10Aug2025 00:46:29.389] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
-[10Aug2025 00:46:29.391] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
-[10Aug2025 00:46:29.393] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
-[10Aug2025 00:46:29.394] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
-[10Aug2025 00:46:29.398] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
-[10Aug2025 00:46:29.401] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
-[10Aug2025 00:46:29.402] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
-[10Aug2025 00:46:29.404] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
-[10Aug2025 00:46:29.406] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
-[10Aug2025 00:46:29.407] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
-[10Aug2025 00:46:29.409] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
-[10Aug2025 00:46:29.412] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
-[10Aug2025 00:46:29.418] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
-[10Aug2025 00:46:29.419] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
-[10Aug2025 00:46:29.422] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
-[10Aug2025 00:46:29.424] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
-[10Aug2025 00:46:29.428] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
-[10Aug2025 00:46:29.433] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
-[10Aug2025 00:46:29.436] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
-[10Aug2025 00:46:29.440] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
-[10Aug2025 00:46:29.447] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
-[10Aug2025 00:46:29.453] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
-[10Aug2025 00:46:29.458] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
-[10Aug2025 00:46:29.465] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
-[10Aug2025 00:46:29.466] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
-[10Aug2025 00:46:29.468] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
-[10Aug2025 00:46:29.696] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
-[10Aug2025 00:46:29.858] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1369 advancements
-[10Aug2025 00:46:29.863] [main/INFO] [Dungeon Crawl/]: Loading data...
-[10Aug2025 00:46:30.486] [main/INFO] [Dungeon Crawl/]: Done.
-[10Aug2025 00:46:30.503] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[10Aug2025 00:46:30.514] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[10Aug2025 00:46:30.575] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
-[10Aug2025 00:46:30.577] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
-[10Aug2025 00:46:30.577] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
-[10Aug2025 00:46:30.577] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[10Aug2025 00:46:30.578] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
-[10Aug2025 00:46:30.578] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
-[10Aug2025 00:46:30.579] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
-[10Aug2025 00:46:30.580] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[10Aug2025 00:46:30.581] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[10Aug2025 00:46:30.582] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[10Aug2025 00:46:30.585] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[10Aug2025 00:46:30.585] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[10Aug2025 00:46:30.586] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
-[10Aug2025 00:46:30.586] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[10Aug2025 00:46:30.586] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
-[10Aug2025 00:46:30.586] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[10Aug2025 00:46:30.589] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
-[10Aug2025 00:46:30.589] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
-[10Aug2025 00:46:30.590] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[10Aug2025 00:46:30.591] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
-[10Aug2025 00:46:30.591] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
-[10Aug2025 00:46:30.592] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
-[10Aug2025 00:46:30.592] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
-[10Aug2025 00:46:30.592] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
-[10Aug2025 00:46:30.593] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
-[10Aug2025 00:46:30.593] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
-[10Aug2025 00:46:30.596] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
-[10Aug2025 00:46:30.596] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
-[10Aug2025 00:46:30.597] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
-[10Aug2025 00:46:30.597] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
-[10Aug2025 00:46:31.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[10Aug2025 00:46:31.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[10Aug2025 00:46:31.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[10Aug2025 00:46:31.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[10Aug2025 00:46:31.963] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[10Aug2025 00:46:32.097] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[10Aug2025 00:46:32.304] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10Aug2025 00:46:32.306] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[10Aug2025 00:46:32.306] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10Aug2025 00:46:32.307] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[10Aug2025 00:46:32.405] [Server thread/INFO] [Framework/]: Loading server configs...
-[10Aug2025 00:46:32.436] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[10Aug2025 00:46:39.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[10Aug2025 00:46:48.532] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.567] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.586] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.652] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.686] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.713] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.740] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.760] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.786] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.809] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.824] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.842] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.867] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.876] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.897] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:48.919] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:49.289] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:49.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:50.247] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:50.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Aug2025 00:46:51.512] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11766 ms
-[10Aug2025 00:46:51.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.182s)! For help, type "help"
-[10Aug2025 00:46:51.595] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[10Aug2025 00:46:51.607] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
-[10Aug2025 00:49:01.787] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.206.144.97:53831] logged in with entity id 205 at (180.2674007775028, -40.975575911786315, -554.0735724209216)
-[10Aug2025 00:49:01.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
-[10Aug2025 00:49:02.012] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
-[10Aug2025 00:49:05.155] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3440ms or 68 ticks behind
-[10Aug2025 00:49:43.659] [Worker-Main-14/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[10Aug2025 00:49:44.943] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
-[10Aug2025 00:50:31.972] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Timed out
-[10Aug2025 00:50:31.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
-[10Aug2025 00:50:56.671] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@480faf2f[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:40841) lost connection: Disconnected
-[10Aug2025 00:51:31.666] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@435e488d[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:38953) lost connection: Disconnected
-[10Aug2025 00:52:25.266] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@38708c17[id=<null>,name=YOAgod,properties={},legacy=false] (/127.206.144.97:39405) lost connection: Disconnected
-[10Aug2025 00:57:33.084] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.206.144.97:42837] logged in with entity id 571 at (156.30000001192093, -40.0, -574.4165905839075)
-[10Aug2025 00:57:33.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
-[10Aug2025 00:57:33.102] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
-[10Aug2025 01:21:26.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Take Aim]
-[10Aug2025 01:28:24.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was shot by Skeleton
-[10Aug2025 01:28:25.280] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[10Aug2025 01:28:25.285] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[10Aug2025 01:47:01.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Sweet Dreams]
-[10Aug2025 02:29:28.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was taken down by Skeleton
-[10Aug2025 02:29:30.169] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[10Aug2025 02:29:30.169] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[10Aug2025 03:03:21.221] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
-[10Aug2025 03:03:21.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
-[10Aug2025 03:08:13.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[10Aug2025 03:08:13.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
-[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[10Aug2025 03:08:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: out<--[HERE]
+[11Aug2025 22:18:32.256] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11Aug2025 22:18:32.264] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[11Aug2025 22:18:34.886] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Aug2025 22:18:35.037] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Aug2025 22:18:35.689] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[11Aug2025 22:18:35.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[11Aug2025 22:18:35.694] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[11Aug2025 22:18:35.695] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[11Aug2025 22:18:36.041] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[11Aug2025 22:18:39.853] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Aug2025 22:18:40.120] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[11Aug2025 22:18:40.314] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Aug2025 22:18:40.690] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 102 options available, 0 override(s) found
+[11Aug2025 22:18:43.949] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11Aug2025 22:18:54.402] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[11Aug2025 22:18:54.426] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[11Aug2025 22:18:55.298] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[11Aug2025 22:18:55.373] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.375] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.378] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.378] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.378] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.378] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.378] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[11Aug2025 22:18:55.623] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[11Aug2025 22:18:55.989] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class me.adda.enhanced_falling_trees.FallingTrees
+[11Aug2025 22:18:56.040] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[11Aug2025 22:18:56.047] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id efallingtrees:config_packet
+[11Aug2025 22:18:56.173] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[11Aug2025 22:18:56.511] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[11Aug2025 22:18:56.665] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[11Aug2025 22:18:56.666] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[11Aug2025 22:18:57.346] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[11Aug2025 22:18:57.361] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[11Aug2025 22:18:57.365] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[11Aug2025 22:18:57.369] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[11Aug2025 22:18:57.617] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[11Aug2025 22:18:57.857] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
+[11Aug2025 22:18:58.251] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[11Aug2025 22:18:58.253] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[11Aug2025 22:18:58.254] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[11Aug2025 22:18:58.255] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[11Aug2025 22:18:58.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AgeOfWeapons.json
+[11Aug2025 22:18:59.007] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[11Aug2025 22:18:59.010] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[11Aug2025 22:18:59.030] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[11Aug2025 22:18:59.030] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[11Aug2025 22:18:59.151] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[11Aug2025 22:18:59.154] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[11Aug2025 22:18:59.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Found status: UP_TO_DATE Current: 1.3.2c Target: null
+[11Aug2025 22:18:59.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[11Aug2025 22:18:59.283] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[11Aug2025 22:18:59.328] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[11Aug2025 22:18:59.380] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[11Aug2025 22:18:59.395] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[11Aug2025 22:18:59.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[11Aug2025 22:18:59.442] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[11Aug2025 22:18:59.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[11Aug2025 22:18:59.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[11Aug2025 22:19:00.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[11Aug2025 22:19:00.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[11Aug2025 22:19:00.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[11Aug2025 22:19:00.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
+[11Aug2025 22:19:00.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
+[11Aug2025 22:19:00.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
+[11Aug2025 22:19:00.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
+[11Aug2025 22:19:00.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Aug2025 22:19:00.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[11Aug2025 22:19:02.286] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Aug2025 22:19:03.365] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
+[11Aug2025 22:19:03.366] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
+[11Aug2025 22:19:04.388] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[11Aug2025 22:19:07.868] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[11Aug2025 22:19:07.872] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[11Aug2025 22:19:07.873] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[11Aug2025 22:19:07.879] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[11Aug2025 22:19:07.880] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[11Aug2025 22:19:07.883] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[11Aug2025 22:19:07.885] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[11Aug2025 22:19:07.886] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[11Aug2025 22:19:07.888] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[11Aug2025 22:19:07.890] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[11Aug2025 22:19:07.893] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[11Aug2025 22:19:07.895] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[11Aug2025 22:19:07.896] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[11Aug2025 22:19:07.897] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[11Aug2025 22:19:07.898] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[11Aug2025 22:19:07.902] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[11Aug2025 22:19:07.904] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[11Aug2025 22:19:07.906] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[11Aug2025 22:19:07.909] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[11Aug2025 22:19:07.910] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[11Aug2025 22:19:07.912] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[11Aug2025 22:19:07.913] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[11Aug2025 22:19:07.915] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[11Aug2025 22:19:07.918] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[11Aug2025 22:19:07.920] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[11Aug2025 22:19:07.921] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[11Aug2025 22:19:07.929] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[11Aug2025 22:19:07.930] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[11Aug2025 22:19:07.934] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[11Aug2025 22:19:07.940] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[11Aug2025 22:19:07.941] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[11Aug2025 22:19:07.944] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[11Aug2025 22:19:07.948] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[11Aug2025 22:19:07.951] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[11Aug2025 22:19:07.957] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[11Aug2025 22:19:07.958] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[11Aug2025 22:19:07.960] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[11Aug2025 22:19:08.159] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[11Aug2025 22:19:08.331] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1369 advancements
+[11Aug2025 22:19:08.338] [main/INFO] [Dungeon Crawl/]: Loading data...
+[11Aug2025 22:19:08.841] [main/INFO] [Dungeon Crawl/]: Done.
+[11Aug2025 22:19:08.859] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[11Aug2025 22:19:08.866] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[11Aug2025 22:19:08.924] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
+[11Aug2025 22:19:08.926] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
+[11Aug2025 22:19:08.927] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
+[11Aug2025 22:19:08.928] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[11Aug2025 22:19:08.929] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
+[11Aug2025 22:19:08.929] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
+[11Aug2025 22:19:08.930] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
+[11Aug2025 22:19:08.931] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[11Aug2025 22:19:08.932] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[11Aug2025 22:19:08.933] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[11Aug2025 22:19:08.934] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[11Aug2025 22:19:08.935] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[11Aug2025 22:19:08.936] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
+[11Aug2025 22:19:08.938] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[11Aug2025 22:19:08.938] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
+[11Aug2025 22:19:08.939] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[11Aug2025 22:19:08.939] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
+[11Aug2025 22:19:08.940] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
+[11Aug2025 22:19:08.941] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[11Aug2025 22:19:08.942] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
+[11Aug2025 22:19:08.943] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
+[11Aug2025 22:19:08.944] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
+[11Aug2025 22:19:08.944] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
+[11Aug2025 22:19:08.945] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
+[11Aug2025 22:19:08.946] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
+[11Aug2025 22:19:08.947] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
+[11Aug2025 22:19:08.947] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
+[11Aug2025 22:19:08.948] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
+[11Aug2025 22:19:08.949] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
+[11Aug2025 22:19:08.950] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
+[11Aug2025 22:19:09.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Aug2025 22:19:09.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Aug2025 22:19:09.952] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Aug2025 22:19:09.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Aug2025 22:19:10.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Aug2025 22:19:10.440] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Aug2025 22:19:10.613] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Aug2025 22:19:10.614] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Aug2025 22:19:10.615] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Aug2025 22:19:10.616] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Aug2025 22:19:10.710] [Server thread/INFO] [Framework/]: Loading server configs...
+[11Aug2025 22:19:10.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Aug2025 22:19:18.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Aug2025 22:19:21.651] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Aug2025 22:19:23.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:23.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:23.621] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:23.625] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:23.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.280] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.337] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.352] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.397] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.400] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.401] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.419] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:24.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:25.342] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:25.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:26.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:26.565] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:27.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:27.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:28.055] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:28.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:29.052] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:29.552] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:30.052] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Aug2025 22:19:30.838] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12786 ms
+[11Aug2025 22:19:30.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.201s)! For help, type "help"
+[11Aug2025 22:19:31.090] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Aug2025 22:19:31.104] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
+[11Aug2025 22:20:01.321] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:51201] logged in with entity id 203 at (97.36091362129328, 76.30220861900207, 209.30000001192093)
+[11Aug2025 22:20:01.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[11Aug2025 22:20:01.736] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[11Aug2025 22:20:02.221] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
+[11Aug2025 22:20:32.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.170.192.167:41331] logged in with entity id 464 at (229.5282336125144, 77.5, -536.0619587457938)
+[11Aug2025 22:20:32.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
+[11Aug2025 22:20:32.099] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
+[11Aug2025 22:20:34.363] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2300ms or 46 ticks behind
+[11Aug2025 22:21:57.212] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 83
+[11Aug2025 22:23:12.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> 97 172
+[11Aug2025 22:23:38.658] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 141
+[11Aug2025 22:23:38.846] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 144
+[11Aug2025 22:23:38.847] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 143
+[11Aug2025 22:23:38.898] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 92
+[11Aug2025 22:23:38.901] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 89
+[11Aug2025 22:23:57.444] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 147
+[11Aug2025 22:23:57.664] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 138
+[11Aug2025 22:23:57.673] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 128
+[11Aug2025 22:23:57.684] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 117
+[11Aug2025 22:23:57.686] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 115
+[11Aug2025 22:23:57.688] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 114
+[11Aug2025 22:23:57.844] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 147
+[11Aug2025 22:24:18.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Best Friends Forever]
+[11Aug2025 22:27:22.901] [Worker-Main-1/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[11Aug2025 22:27:27.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Not Today, Thank You]
