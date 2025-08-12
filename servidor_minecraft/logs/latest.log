@@ -425,3 +425,21 @@
 [12Aug2025 21:43:03.159] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 113
 [12Aug2025 21:43:05.504] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
 [12Aug2025 21:43:06.020] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 105
+[12Aug2025 21:44:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has completed the challenge [Hot Tourist Destinations]
+[12Aug2025 21:48:45.176] [Server thread/INFO] [Scaling Health/]: Blight Samuel the Pit Master was killed by Afixion
+[12Aug2025 21:48:45.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Samuel the Pit Master'/42927, l='ServerLevel[world]', x=499.65, y=69.00, z=263.76] died: Samuel the Pit Master was slain by Afixion
+[12Aug2025 21:48:51.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [War Pigs]
+[12Aug2025 21:54:22.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Hidden in the Depths]
+[12Aug2025 21:55:43.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has completed the challenge [Subspace Bubble]
+[12Aug2025 21:55:52.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12272ms or 245 ticks behind
+[12Aug2025 21:55:57.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has completed the challenge [Subspace Bubble]
+[12Aug2025 22:00:07.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 22:00:07.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 22:00:07.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion was slain by Zombie
+[12Aug2025 22:00:44.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:51259] logged in with entity id 51360 at (5555.188125524023, 67.41999998688698, 5215.5360324519825)
+[12Aug2025 22:00:44.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 22:00:44.398] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 22:00:56.548] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
+[12Aug2025 22:00:56.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 22:01:15.093] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
+[12Aug2025 22:01:15.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game

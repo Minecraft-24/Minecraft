@@ -28,6 +28,7 @@
       "minecraft:forest": "2025-08-09 19:46:24 +0000",
       "minecraft:lush_caves": "2025-08-12 15:41:26 +0000",
       "minecraft:jungle": "2025-08-09 19:34:45 +0000",
+      "minecraft:ocean": "2025-08-12 21:55:59 +0000",
       "minecraft:meadow": "2025-08-09 20:32:40 +0000",
       "minecraft:savanna": "2025-08-09 19:46:29 +0000",
       "minecraft:plains": "2025-08-09 20:29:54 +0000"
@@ -2078,10 +2079,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-08-11 23:17:08 +0000",
       "minecraft:nether_wastes": "2025-08-12 20:54:42 +0000",
+      "minecraft:soul_sand_valley": "2025-08-12 21:44:28 +0000",
       "minecraft:basalt_deltas": "2025-08-12 20:56:53 +0000",
       "minecraft:warped_forest": "2025-08-12 20:55:00 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
@@ -3037,6 +3039,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-08-12 21:50:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
       "has_ancient_debris": "2025-08-12 21:19:10 +0000"
@@ -3238,6 +3246,12 @@
   "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2025-08-12 20:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-08-12 21:55:57 +0000"
     },
     "done": true
   },
