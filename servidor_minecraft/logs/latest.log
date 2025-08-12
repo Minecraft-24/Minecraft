@@ -3,3 +3,6 @@
 [12Aug2025 01:49:19.675] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.170.192.167:35019] logged in with entity id 20270 at (233.14912981202173, 75.0, -538.3000000119209)
 [12Aug2025 01:49:19.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
 [12Aug2025 01:49:19.698] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
+[12Aug2025 01:51:59.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Zombified Piglin
+[12Aug2025 01:52:00.515] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 01:52:00.516] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
