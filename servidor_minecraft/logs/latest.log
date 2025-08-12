@@ -197,3 +197,6 @@
 [12Aug2025 15:06:01.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 0.26601890075015433
 [12Aug2025 15:06:01.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 0.6822849405326394
 [12Aug2025 15:06:01.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 1.097238396568116
+[12Aug2025 15:13:48.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Zombie
+[12Aug2025 15:16:29.170] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 15:16:29.171] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
