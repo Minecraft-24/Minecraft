@@ -191,3 +191,15 @@
 [12Aug2025 19:33:47.550] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:41945] logged in with entity id 459 at (210.42446314583287, 68.1875, -527.3000000119209)
 [12Aug2025 19:33:47.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [12Aug2025 19:33:47.765] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 19:52:39.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion tried to swim in lava
+[12Aug2025 19:52:41.030] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 19:52:41.030] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[12Aug2025 19:53:04.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
+[12Aug2025 19:53:04.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 19:53:04.245] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Aug2025 19:53:21.608] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:35435] logged in with entity id 4232 at (232.69705182257482, 76.42159999847412, -537.6600379144109)
+[12Aug2025 19:53:21.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 19:53:21.673] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 19:57:47.556] [Server thread/INFO] [Scaling Health/]: Blight Squid was killed by YOAgod
+[12Aug2025 20:00:31.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <YOAgod> xaero-waypoint:llanura:L:324:64:43:12:false:0:Internal-overworld-waypoints
+[12Aug2025 20:03:13.310] [Worker-Main-1/INFO] [citadel/]: vanilla surface rule behavior unchanged
