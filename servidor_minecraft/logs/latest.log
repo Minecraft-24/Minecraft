@@ -271,3 +271,21 @@
 [12Aug2025 20:47:32.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:36497] logged in with entity id 30381 at (2.5, 73.0, 4.5)
 [12Aug2025 20:47:32.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [12Aug2025 20:47:32.712] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 20:53:21.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> 625 625
+[12Aug2025 20:53:44.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [We Need to Go Deeper]
+[12Aug2025 20:54:30.788] [Worker-Main-43/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[12Aug2025 20:56:09.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> 625 625
+[12Aug2025 20:57:05.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Those Were the Days]
+[12Aug2025 20:57:54.705] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 146
+[12Aug2025 20:57:55.983] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
+[12Aug2025 21:00:23.113] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 148
+[12Aug2025 21:01:28.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion was eliminated by Zombified Piglin
+[12Aug2025 21:01:31.067] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 21:01:31.067] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[12Aug2025 21:01:49.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:01:49.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:02:13.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:36255] logged in with entity id 34338 at (7.5, 72.0, -5.5)
+[12Aug2025 21:02:13.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:02:13.411] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
