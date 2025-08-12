@@ -211,3 +211,15 @@
 [12Aug2025 16:20:32.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was decimated by Stray
 [12Aug2025 16:20:34.326] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [12Aug2025 16:20:34.327] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[12Aug2025 16:48:26.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 0.39971297750084034
+[12Aug2025 16:48:26.940] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 0.8557182652368169
+[12Aug2025 16:48:26.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 1.3174074816020536
+[12Aug2025 16:48:27.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of YOAgod) moved wrongly! 1.7775857753663047
+[12Aug2025 16:57:36.042] [Worker-Main-144/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[12Aug2025 16:57:36.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[12Aug2025 16:58:01.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod tried to swim in lava
+[12Aug2025 16:58:02.353] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 16:58:02.355] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[12Aug2025 16:59:01.506] [Server thread/INFO] [Scaling Health/]: Blight Glow Squid has died
+[12Aug2025 17:03:34.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
+[12Aug2025 17:03:34.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
