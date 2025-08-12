@@ -241,6 +241,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-08-09 20:44:19 +0000",
+      "minecraft:hoglin": "2025-08-12 21:27:45 +0000",
       "minecraft:spider": "2025-08-09 19:46:24 +0000",
       "minecraft:piglin_brute": "2025-08-12 20:57:55 +0000",
       "minecraft:creeper": "2025-08-11 22:21:56 +0000",
@@ -2872,6 +2873,12 @@
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-08-12 21:10:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-08-12 21:33:02 +0000"
     },
     "done": true
   },
