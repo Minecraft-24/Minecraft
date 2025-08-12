@@ -1,2 +1,5 @@
 [12Aug2025 00:04:58.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
 [12Aug2025 00:04:58.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
+[12Aug2025 01:49:19.675] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.170.192.167:35019] logged in with entity id 20270 at (233.14912981202173, 75.0, -538.3000000119209)
+[12Aug2025 01:49:19.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
+[12Aug2025 01:49:19.698] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
