@@ -2694,6 +2694,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-08-12 16:13:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-08-12 15:44:15 +0000"
@@ -2751,6 +2757,12 @@
   "lootr:100loot": {
     "criteria": {
       "loot_stat": "2025-08-12 15:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-08-12 16:13:45 +0000"
     },
     "done": true
   },
