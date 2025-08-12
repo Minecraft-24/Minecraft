@@ -2662,9 +2662,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-08-12 20:53:45 +0000",
       "minecraft:nether_wastes": "2025-08-12 20:54:42 +0000",
-      "minecraft:warped_forest": "2025-08-12 21:09:37 +0000"
+      "minecraft:soul_sand_valley": "2025-08-12 21:41:40 +0000",
+      "minecraft:warped_forest": "2025-08-12 21:09:37 +0000",
+      "minecraft:basalt_deltas": "2025-08-12 21:39:47 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/find_bastion": {
     "criteria": {
@@ -2879,6 +2881,30 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-08-12 21:33:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-08-12 21:40:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-08-12 21:40:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-08-12 21:39:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-08-12 21:40:19 +0000"
     },
     "done": true
   },
