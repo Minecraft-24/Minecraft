@@ -3052,3 +3052,21 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [12Aug2025 15:37:32.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [12Aug2025 15:42:32.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [12Aug2025 15:42:32.762] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Aug2025 15:47:32.741] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Aug2025 15:47:32.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Aug2025 15:52:32.754] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Aug2025 15:52:32.775] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Aug2025 15:55:33.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has completed the challenge [Centennial]
+[12Aug2025 15:57:21.259] [Server thread/INFO] [Scaling Health/]: Blight Glow Squid has died
+[12Aug2025 15:57:32.733] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Aug2025 15:57:32.742] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Aug2025 16:00:16.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was shot by Skeleton
+[12Aug2025 16:00:17.536] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 16:00:17.540] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[12Aug2025 16:02:32.733] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Aug2025 16:02:32.741] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Aug2025 16:03:27.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Spider
+[12Aug2025 16:03:28.511] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 16:03:28.511] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[12Aug2025 16:07:32.737] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Aug2025 16:07:32.745] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
