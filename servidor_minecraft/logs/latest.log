@@ -193,3 +193,7 @@
 [12Aug2025 02:53:00.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod tried to swim in lava
 [12Aug2025 02:53:02.174] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [12Aug2025 02:53:02.176] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[12Aug2025 03:08:52.128] [Worker-Main-39/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[12Aug2025 03:13:40.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod tried to swim in lava
+[12Aug2025 03:13:43.567] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 03:13:43.569] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
