@@ -289,3 +289,39 @@
 [12Aug2025 21:02:13.411] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
 [12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
 [12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:03:33.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:42433] logged in with entity id 34683 at (7.5, 72.0, -5.5)
+[12Aug2025 21:03:33.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:03:33.791] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:03:50.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Those Were the Days]
+[12Aug2025 21:04:03.801] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:04:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:04:24.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:32965] logged in with entity id 34829 at (7.5, 72.0, -5.5)
+[12Aug2025 21:04:24.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:04:24.647] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:06:39.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:06:39.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:07:44.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:56073] logged in with entity id 35785 at (22.5, 83.0, -1.592558532023567)
+[12Aug2025 21:07:44.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:07:44.421] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:08:14.503] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:08:14.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:09:08.306] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54327] logged in with entity id 36040 at (22.5, 83.0, -1.592558532023567)
+[12Aug2025 21:09:08.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:09:08.340] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:09:34.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [A Terrible Fortress]
+[12Aug2025 21:10:53.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
+[12Aug2025 21:10:53.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[12Aug2025 21:10:53.514] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Aug2025 21:11:11.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@570ba7ba[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:49759) lost connection: Disconnected
+[12Aug2025 21:11:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Piglin Brute
+[12Aug2025 21:11:47.922] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[12Aug2025 21:11:47.923] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[12Aug2025 21:11:48.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@21fb23f2[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:45237): Took too long to log in
+[12Aug2025 21:11:48.183] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@21fb23f2[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:45237) lost connection: Took too long to log in
+[12Aug2025 21:11:48.187] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Aug2025 21:12:27.254] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:39459] logged in with entity id 36902 at (46.51344791420391, 75.02442408821369, 7.964642083512649)
+[12Aug2025 21:12:27.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[12Aug2025 21:12:27.271] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[12Aug2025 21:12:44.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion withered away
+[12Aug2025 21:12:57.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[12Aug2025 21:12:57.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
