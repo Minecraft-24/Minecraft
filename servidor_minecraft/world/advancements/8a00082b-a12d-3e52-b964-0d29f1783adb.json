@@ -2940,6 +2940,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-08-12 20:11:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
       "has_the_recipe": "2025-08-12 19:39:57 +0000"
