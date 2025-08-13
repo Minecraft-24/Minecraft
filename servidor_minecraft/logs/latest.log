@@ -253,3 +253,26 @@
 [13Aug2025 22:10:36.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [13Aug2025 22:10:36.614] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
 [13Aug2025 22:30:09.140] [Server thread/ERROR] [mezz.jei.common.transfer.BasicRecipeTransferHandlerServer/]: Tried to transfer recipe but was given an empty inventory slot as an ingredient source: 43
+[13Aug2025 22:35:07.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [A Seedy Place]
+[13Aug2025 22:37:52.423] [Server thread/INFO] [Scaling Health/]: Blight Bee was killed by Afixion
+[13Aug2025 22:37:57.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <YOAgod> xaero-waypoint:New Home ^col^3:N:5699:97:5141:6:false:0:Internal-overworld-waypoints
+[13Aug2025 22:40:24.295] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[13Aug2025 22:40:24.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 22:40:43.349] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:47191] logged in with entity id 14608 at (5699.683948078581, 97.0, 5140.359135890725)
+[13Aug2025 22:40:43.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[13Aug2025 22:40:43.429] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[13Aug2025 22:41:13.491] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[13Aug2025 22:41:13.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 22:41:38.047] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54677] logged in with entity id 14739 at (5699.683948078581, 97.0, 5140.359135890725)
+[13Aug2025 22:41:38.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[13Aug2025 22:41:38.112] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[13Aug2025 22:42:07.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
+[13Aug2025 22:42:07.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 22:42:15.915] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:58159] logged in with entity id 14818 at (5699.683948078581, 97.0, 5140.359135890725)
+[13Aug2025 22:42:15.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[13Aug2025 22:42:16.027] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[13Aug2025 22:42:46.040] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[13Aug2025 22:42:46.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 22:43:14.897] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:39223] logged in with entity id 14960 at (5699.683948078581, 97.0, 5140.359135890725)
+[13Aug2025 22:43:14.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[13Aug2025 22:43:14.966] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
