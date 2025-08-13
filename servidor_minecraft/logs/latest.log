@@ -1,445 +1,189 @@
-[12Aug2025 19:31:07.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[12Aug2025 19:31:07.971] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[12Aug2025 19:31:09.085] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Aug2025 19:31:09.163] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[12Aug2025 19:31:09.627] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[12Aug2025 19:31:09.629] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[12Aug2025 19:31:09.631] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[12Aug2025 19:31:09.633] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[12Aug2025 19:31:09.836] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[12Aug2025 19:31:13.584] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Aug2025 19:31:13.863] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Aug2025 19:31:13.955] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Aug2025 19:31:14.200] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 102 options available, 0 override(s) found
-[12Aug2025 19:31:17.072] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12Aug2025 19:31:26.914] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[12Aug2025 19:31:26.947] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[12Aug2025 19:31:27.539] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
-[12Aug2025 19:31:27.626] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.628] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.628] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.628] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.628] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.629] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.629] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[12Aug2025 19:31:27.960] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[12Aug2025 19:31:28.440] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class me.adda.enhanced_falling_trees.FallingTrees
-[12Aug2025 19:31:28.481] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Aug2025 19:31:28.485] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id efallingtrees:config_packet
-[12Aug2025 19:31:28.606] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
-[12Aug2025 19:31:29.112] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[12Aug2025 19:31:29.313] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[12Aug2025 19:31:29.313] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[12Aug2025 19:31:29.994] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[12Aug2025 19:31:30.019] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[12Aug2025 19:31:30.030] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[12Aug2025 19:31:30.035] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[12Aug2025 19:31:30.306] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[12Aug2025 19:31:30.523] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
-[12Aug2025 19:31:30.842] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[12Aug2025 19:31:30.845] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[12Aug2025 19:31:30.845] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[12Aug2025 19:31:30.845] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[12Aug2025 19:31:31.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AgeOfWeapons.json
-[12Aug2025 19:31:31.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Found status: UP_TO_DATE Current: 1.3.2c Target: null
-[12Aug2025 19:31:31.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[12Aug2025 19:31:31.462] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[12Aug2025 19:31:31.466] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[12Aug2025 19:31:31.474] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[12Aug2025 19:31:31.476] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[12Aug2025 19:31:31.512] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[12Aug2025 19:31:31.516] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[12Aug2025 19:31:31.623] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[12Aug2025 19:31:31.655] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[12Aug2025 19:31:31.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[12Aug2025 19:31:31.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[12Aug2025 19:31:31.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[12Aug2025 19:31:31.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[12Aug2025 19:31:31.713] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[12Aug2025 19:31:31.726] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[12Aug2025 19:31:32.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[12Aug2025 19:31:32.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[12Aug2025 19:31:32.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
-[12Aug2025 19:31:32.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[12Aug2025 19:31:32.500] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[12Aug2025 19:31:32.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
-[12Aug2025 19:31:32.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
-[12Aug2025 19:31:32.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Aug2025 19:31:32.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[12Aug2025 19:31:33.886] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Aug2025 19:31:35.188] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
-[12Aug2025 19:31:35.190] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
-[12Aug2025 19:31:36.262] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[12Aug2025 19:31:39.980] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
-[12Aug2025 19:31:39.982] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
-[12Aug2025 19:31:39.984] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
-[12Aug2025 19:31:39.985] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
-[12Aug2025 19:31:39.986] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
-[12Aug2025 19:31:39.988] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
-[12Aug2025 19:31:39.989] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
-[12Aug2025 19:31:39.994] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
-[12Aug2025 19:31:39.996] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
-[12Aug2025 19:31:39.997] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
-[12Aug2025 19:31:40.001] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
-[12Aug2025 19:31:40.004] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
-[12Aug2025 19:31:40.005] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
-[12Aug2025 19:31:40.006] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
-[12Aug2025 19:31:40.008] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
-[12Aug2025 19:31:40.013] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
-[12Aug2025 19:31:40.017] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
-[12Aug2025 19:31:40.018] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
-[12Aug2025 19:31:40.019] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
-[12Aug2025 19:31:40.021] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
-[12Aug2025 19:31:40.023] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
-[12Aug2025 19:31:40.025] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
-[12Aug2025 19:31:40.029] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
-[12Aug2025 19:31:40.030] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
-[12Aug2025 19:31:40.034] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
-[12Aug2025 19:31:40.036] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
-[12Aug2025 19:31:40.039] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
-[12Aug2025 19:31:40.041] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
-[12Aug2025 19:31:40.042] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
-[12Aug2025 19:31:40.043] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
-[12Aug2025 19:31:40.047] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
-[12Aug2025 19:31:40.050] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
-[12Aug2025 19:31:40.055] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
-[12Aug2025 19:31:40.056] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
-[12Aug2025 19:31:40.065] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
-[12Aug2025 19:31:40.066] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
-[12Aug2025 19:31:40.067] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
-[12Aug2025 19:31:40.286] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
-[12Aug2025 19:31:40.505] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1369 advancements
-[12Aug2025 19:31:40.512] [main/INFO] [Dungeon Crawl/]: Loading data...
-[12Aug2025 19:31:41.055] [main/INFO] [Dungeon Crawl/]: Done.
-[12Aug2025 19:31:41.071] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[12Aug2025 19:31:41.077] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[12Aug2025 19:31:41.153] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
-[12Aug2025 19:31:41.154] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
-[12Aug2025 19:31:41.154] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
-[12Aug2025 19:31:41.154] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[12Aug2025 19:31:41.155] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
-[12Aug2025 19:31:41.155] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
-[12Aug2025 19:31:41.156] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
-[12Aug2025 19:31:41.156] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[12Aug2025 19:31:41.156] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[12Aug2025 19:31:41.157] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[12Aug2025 19:31:41.157] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[12Aug2025 19:31:41.157] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[12Aug2025 19:31:41.157] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
-[12Aug2025 19:31:41.159] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[12Aug2025 19:31:41.160] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
-[12Aug2025 19:31:41.160] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[12Aug2025 19:31:41.160] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
-[12Aug2025 19:31:41.160] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
-[12Aug2025 19:31:41.163] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[12Aug2025 19:31:41.163] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
-[12Aug2025 19:31:41.164] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
-[12Aug2025 19:31:41.164] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
-[12Aug2025 19:31:41.164] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
-[12Aug2025 19:31:41.165] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
-[12Aug2025 19:31:41.165] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
-[12Aug2025 19:31:41.165] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
-[12Aug2025 19:31:41.167] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
-[12Aug2025 19:31:41.167] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
-[12Aug2025 19:31:41.168] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
-[12Aug2025 19:31:41.168] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
-[12Aug2025 19:31:42.040] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[12Aug2025 19:31:42.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Aug2025 19:31:42.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Aug2025 19:31:42.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Aug2025 19:31:42.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Aug2025 19:31:42.568] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Aug2025 19:31:42.701] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Aug2025 19:31:42.702] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Aug2025 19:31:42.702] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Aug2025 19:31:42.702] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Aug2025 19:31:42.802] [Server thread/INFO] [Framework/]: Loading server configs...
-[12Aug2025 19:31:42.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Aug2025 19:31:50.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Aug2025 19:31:57.765] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:57.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:57.846] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:57.947] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.021] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.025] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.061] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.156] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.205] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.247] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.271] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.317] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:58.448] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:59.110] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:59.412] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:31:59.907] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:32:00.407] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Aug2025 19:32:01.087] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10681 ms
-[12Aug2025 19:32:01.092] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.361s)! For help, type "help"
-[12Aug2025 19:32:01.259] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Aug2025 19:32:01.276] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
-[12Aug2025 19:32:54.126] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.170.192.167:57821] logged in with entity id 142 at (233.7433735713943, 75.0, -540.4021004321886)
-[12Aug2025 19:32:54.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
-[12Aug2025 19:32:54.345] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
-[12Aug2025 19:32:57.241] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3206ms or 64 ticks behind
-[12Aug2025 19:32:59.057] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
-[12Aug2025 19:33:04.450] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EnderMan['Enderman'/372, l='ServerLevel[world]', x=126.88, y=-40.00, z=-612.44]
-[12Aug2025 19:33:11.382] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Turtle['Turtle'/415, l='ServerLevel[world]', x=391.11, y=58.00, z=-367.96]
-[12Aug2025 19:33:47.550] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:41945] logged in with entity id 459 at (210.42446314583287, 68.1875, -527.3000000119209)
-[12Aug2025 19:33:47.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 19:33:47.765] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 19:52:39.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion tried to swim in lava
-[12Aug2025 19:52:41.030] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 19:52:41.030] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[12Aug2025 19:53:04.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
-[12Aug2025 19:53:04.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 19:53:04.245] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 19:53:21.608] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:35435] logged in with entity id 4232 at (232.69705182257482, 76.42159999847412, -537.6600379144109)
-[12Aug2025 19:53:21.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 19:53:21.673] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 19:57:47.556] [Server thread/INFO] [Scaling Health/]: Blight Squid was killed by YOAgod
-[12Aug2025 20:00:31.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <YOAgod> xaero-waypoint:llanura:L:324:64:43:12:false:0:Internal-overworld-waypoints
-[12Aug2025 20:03:13.310] [Worker-Main-1/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[12Aug2025 20:12:28.473] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=256, y=64, z=-573} BlockPos{x=255, y=63, z=-575}
-[12Aug2025 20:12:28.520] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=256, y=64, z=-573} BlockPos{x=255, y=63, z=-575}
-[12Aug2025 20:12:29.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=253, y=64, z=-574} BlockPos{x=252, y=64, z=-575}
-[12Aug2025 20:12:29.824] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=252, y=64, z=-573} BlockPos{x=251, y=62, z=-572}
-[12Aug2025 20:21:29.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Cover Me with Diamonds]
-[12Aug2025 20:22:16.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Zombie Villager
-[12Aug2025 20:22:18.184] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 20:22:18.185] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
-[12Aug2025 20:23:48.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion was slain by Spider
-[12Aug2025 20:23:49.630] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 20:23:49.630] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[12Aug2025 20:24:09.796] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:24:09.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:24:55.264] [Server thread/INFO] [Scaling Health/]: Blight Squid was killed by YOAgod
-[12Aug2025 20:25:01.359] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1d791d3e[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:60687) lost connection: Disconnected
-[12Aug2025 20:25:42.093] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7f0390bb[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:33551) lost connection: Disconnected
-[12Aug2025 20:26:01.658] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54671] logged in with entity id 19909 at (3.5, 72.0, 3.5)
-[12Aug2025 20:26:01.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:26:01.720] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:26:31.797] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:26:31.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:27:10.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:56197] logged in with entity id 20639 at (3.5, 72.0, 3.5)
-[12Aug2025 20:27:10.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:27:10.702] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:27:40.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:27:40.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:28:19.643] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4b0adbe6[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:40985) lost connection: Disconnected
-[12Aug2025 20:28:46.012] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:52905] logged in with entity id 21149 at (3.5, 72.0, 3.5)
-[12Aug2025 20:28:46.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:28:46.114] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:31:16.325] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:31:16.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:32:13.947] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@26c6dcce[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:56081) lost connection: Disconnected
-[12Aug2025 20:32:23.906] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:53101] logged in with entity id 23233 at (-243.07698938123164, 85.02442408821369, 379.5275336689747)
-[12Aug2025 20:32:23.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:32:23.931] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:42:10.003] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:42:10.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:42:36.155] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:40993] logged in with entity id 28661 at (-434.31158017453646, 61.0, 672.6999999880791)
-[12Aug2025 20:42:36.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:42:36.168] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:43:06.252] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:43:06.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:43:06.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion drowned
-[12Aug2025 20:44:10.254] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:39427] logged in with entity id 29553 at (-434.31158017453646, 61.0, 672.6999999880791)
-[12Aug2025 20:44:10.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:44:10.272] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:44:11.663] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/29573, l='ServerLevel[world]', x=-434.31, y=61.00, z=672.70, removed=DISCARDED]
-[12Aug2025 20:44:15.409] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 20:44:15.409] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
-[12Aug2025 20:44:17.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> naaaa
-[12Aug2025 20:44:20.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> la ptm
-[12Aug2025 20:44:36.100] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
-[12Aug2025 20:44:36.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:45:10.406] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:50679] logged in with entity id 29865 at (2.5, 73.0, 4.5)
-[12Aug2025 20:45:10.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:45:10.452] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:45:40.550] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:45:40.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:46:21.396] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@35b7c940[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:59735) lost connection: Disconnected
-[12Aug2025 20:46:38.107] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:55411] logged in with entity id 30149 at (2.5, 73.0, 4.5)
-[12Aug2025 20:46:38.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:46:38.187] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:47:08.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 20:47:08.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 20:47:32.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:36497] logged in with entity id 30381 at (2.5, 73.0, 4.5)
-[12Aug2025 20:47:32.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 20:47:32.712] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 20:53:21.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> 625 625
-[12Aug2025 20:53:44.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [We Need to Go Deeper]
-[12Aug2025 20:54:30.788] [Worker-Main-43/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[12Aug2025 20:56:09.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Afixion> 625 625
-[12Aug2025 20:57:05.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Those Were the Days]
-[12Aug2025 20:57:54.705] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 146
-[12Aug2025 20:57:55.983] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
-[12Aug2025 21:00:23.113] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 148
-[12Aug2025 21:01:28.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion was eliminated by Zombified Piglin
-[12Aug2025 21:01:31.067] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 21:01:31.067] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[12Aug2025 21:01:49.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:01:49.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:02:13.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:36255] logged in with entity id 34338 at (7.5, 72.0, -5.5)
-[12Aug2025 21:02:13.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:02:13.411] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:02:43.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:03:33.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:42433] logged in with entity id 34683 at (7.5, 72.0, -5.5)
-[12Aug2025 21:03:33.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:03:33.791] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:03:50.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Those Were the Days]
-[12Aug2025 21:04:03.801] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:04:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:04:24.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:32965] logged in with entity id 34829 at (7.5, 72.0, -5.5)
-[12Aug2025 21:04:24.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:04:24.647] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:06:39.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:06:39.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:07:44.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:56073] logged in with entity id 35785 at (22.5, 83.0, -1.592558532023567)
-[12Aug2025 21:07:44.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:07:44.421] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:08:14.503] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:08:14.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:09:08.306] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54327] logged in with entity id 36040 at (22.5, 83.0, -1.592558532023567)
-[12Aug2025 21:09:08.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:09:08.340] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:09:34.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [A Terrible Fortress]
-[12Aug2025 21:10:53.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
-[12Aug2025 21:10:53.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:10:53.514] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:11:11.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@570ba7ba[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:49759) lost connection: Disconnected
-[12Aug2025 21:11:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Piglin Brute
-[12Aug2025 21:11:47.922] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 21:11:47.923] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[12Aug2025 21:11:48.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@21fb23f2[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:45237): Took too long to log in
-[12Aug2025 21:11:48.183] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@21fb23f2[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:45237) lost connection: Took too long to log in
-[12Aug2025 21:11:48.187] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:12:27.254] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:39459] logged in with entity id 36902 at (46.51344791420391, 75.02442408821369, 7.964642083512649)
-[12Aug2025 21:12:27.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:12:27.271] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:12:44.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion withered away
-[12Aug2025 21:12:57.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:12:57.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:13:55.901] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:42063] logged in with entity id 37452 at (46.51344791420391, 75.02442408821369, 7.964642083512649)
-[12Aug2025 21:13:55.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:13:55.931] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:14:22.817] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 21:14:22.817] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[12Aug2025 21:14:40.999] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:14:40.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:15:46.502] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54509] logged in with entity id 37903 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:15:46.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:15:46.557] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:16:16.650] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:16:16.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:16:49.258] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:52705] logged in with entity id 38274 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:16:49.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:16:49.297] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:17:09.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [War Pigs]
-[12Aug2025 21:17:12.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Who is Cutting Onions?]
-[12Aug2025 21:17:19.401] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:17:19.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:18:03.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:47237] logged in with entity id 38594 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:18:03.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:18:03.743] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:18:33.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:18:33.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:19:10.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has made the advancement [Hidden in the Depths]
-[12Aug2025 21:19:43.745] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@78f067ce[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:56203) lost connection: Disconnected
-[12Aug2025 21:20:09.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:49041] logged in with entity id 39028 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:20:09.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:20:09.064] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:20:39.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:20:39.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:21:27.599] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:47363] logged in with entity id 39316 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:21:27.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:21:27.638] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:21:57.708] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:21:57.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:22:38.899] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:36215] logged in with entity id 39505 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:22:38.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:22:38.938] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:23:09.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:23:09.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:24:06.601] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:38711] logged in with entity id 39781 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:24:06.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:24:06.656] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:24:36.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:24:36.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:24:47.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:56205] logged in with entity id 40023 at (-6.5, 86.0, 10.5)
-[12Aug2025 21:24:47.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:24:47.384] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:25:14.605] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=74, z=-9}
-[12Aug2025 21:25:14.706] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=74, z=-8}
-[12Aug2025 21:26:02.547] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:26:02.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:26:25.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:35407] logged in with entity id 40777 at (22.5, 83.0, -1.7347491818324556)
-[12Aug2025 21:26:25.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:26:25.426] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:28:16.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion tried to swim in lava
-[12Aug2025 21:28:18.601] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Aug2025 21:28:18.601] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[12Aug2025 21:28:40.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:28:40.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:29:34.142] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@5e21963d[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:47663): Took too long to log in
-[12Aug2025 21:29:34.142] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5e21963d[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:47663) lost connection: Took too long to log in
-[12Aug2025 21:29:34.193] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:30:20.248] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@201da5ef[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:47813): Took too long to log in
-[12Aug2025 21:30:20.249] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@201da5ef[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:47813) lost connection: Took too long to log in
-[12Aug2025 21:30:20.297] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:30:44.622] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:43813] logged in with entity id 41613 at (5.5, 71.0, -1.5)
-[12Aug2025 21:30:44.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:30:44.699] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:31:14.697] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:31:14.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:32:01.598] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:38737] logged in with entity id 42066 at (5.5, 71.0, -1.5)
-[12Aug2025 21:32:01.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:32:01.659] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:33:46.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:33:46.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:34:10.006] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:54449] logged in with entity id 42994 at (22.5, 83.0, -1.579800865111956)
-[12Aug2025 21:34:10.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:34:10.023] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:34:40.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:34:40.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:35:16.794] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@f8cb5f7[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:36009): Took too long to log in
-[12Aug2025 21:35:16.794] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@f8cb5f7[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:36009) lost connection: Took too long to log in
-[12Aug2025 21:35:16.843] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:36:02.792] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@6c4dbd5[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:36667): Took too long to log in
-[12Aug2025 21:36:02.793] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6c4dbd5[id=<null>,name=Afixion,properties={},legacy=false] (/127.119.241.5:36667) lost connection: Took too long to log in
-[12Aug2025 21:36:02.845] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[12Aug2025 21:36:25.149] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:53429] logged in with entity id 43598 at (22.5, 83.0, -1.579800865111956)
-[12Aug2025 21:36:25.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:36:25.161] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:36:55.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 21:36:55.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 21:37:24.359] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:46585] logged in with entity id 43992 at (22.5, 83.0, -1.579800865111956)
-[12Aug2025 21:37:24.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 21:37:24.370] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 21:41:40.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has completed the challenge [Hot Tourist Destinations]
-[12Aug2025 21:43:03.159] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 113
-[12Aug2025 21:43:05.504] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
-[12Aug2025 21:43:06.020] [Server thread/WARN] [jeg/]: literal{Afixion}(188a9d9a-0bca-36a3-9c92-c2d81b1514e0) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 105
-[12Aug2025 21:44:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has completed the challenge [Hot Tourist Destinations]
-[12Aug2025 21:48:45.176] [Server thread/INFO] [Scaling Health/]: Blight Samuel the Pit Master was killed by Afixion
-[12Aug2025 21:48:45.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Samuel the Pit Master'/42927, l='ServerLevel[world]', x=499.65, y=69.00, z=263.76] died: Samuel the Pit Master was slain by Afixion
-[12Aug2025 21:48:51.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [War Pigs]
-[12Aug2025 21:54:22.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has made the advancement [Hidden in the Depths]
-[12Aug2025 21:55:43.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion has completed the challenge [Subspace Bubble]
-[12Aug2025 21:55:52.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12272ms or 245 ticks behind
-[12Aug2025 21:55:57.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod has completed the challenge [Subspace Bubble]
-[12Aug2025 22:00:07.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
-[12Aug2025 22:00:07.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 22:00:07.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion was slain by Zombie
-[12Aug2025 22:00:44.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:51259] logged in with entity id 51360 at (5555.188125524023, 67.41999998688698, 5215.5360324519825)
-[12Aug2025 22:00:44.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
-[12Aug2025 22:00:44.398] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
-[12Aug2025 22:00:56.548] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Disconnected
-[12Aug2025 22:00:56.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
-[12Aug2025 22:01:15.093] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
-[12Aug2025 22:01:15.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
+[13Aug2025 21:12:59.799] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Aug2025 21:12:59.808] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[13Aug2025 21:13:00.901] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Aug2025 21:13:00.988] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Aug2025 21:13:01.455] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[13Aug2025 21:13:01.458] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Aug2025 21:13:01.460] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Aug2025 21:13:01.462] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Aug2025 21:13:01.709] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[13Aug2025 21:13:05.056] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Aug2025 21:13:05.345] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Aug2025 21:13:05.421] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Aug2025 21:13:05.760] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 102 options available, 0 override(s) found
+[13Aug2025 21:13:08.390] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Aug2025 21:13:17.952] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[13Aug2025 21:13:17.976] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[13Aug2025 21:13:18.831] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[13Aug2025 21:13:18.916] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.917] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.917] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.917] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.918] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.921] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[13Aug2025 21:13:18.921] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[13Aug2025 21:13:19.231] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[13Aug2025 21:13:19.497] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class me.adda.enhanced_falling_trees.FallingTrees
+[13Aug2025 21:13:19.533] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Aug2025 21:13:19.538] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id efallingtrees:config_packet
+[13Aug2025 21:13:19.635] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[13Aug2025 21:13:19.954] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[13Aug2025 21:13:20.137] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[13Aug2025 21:13:20.138] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[13Aug2025 21:13:20.972] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[13Aug2025 21:13:21.013] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[13Aug2025 21:13:21.026] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[13Aug2025 21:13:21.030] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[13Aug2025 21:13:21.336] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[13Aug2025 21:13:21.566] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
+[13Aug2025 21:13:21.945] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[13Aug2025 21:13:21.946] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[13Aug2025 21:13:21.946] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[13Aug2025 21:13:21.946] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[13Aug2025 21:13:22.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AgeOfWeapons.json
+[13Aug2025 21:13:22.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ageofweapons] Found status: UP_TO_DATE Current: 1.3.2c Target: null
+[13Aug2025 21:13:22.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[13Aug2025 21:13:22.528] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13Aug2025 21:13:22.529] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Aug2025 21:13:22.535] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13Aug2025 21:13:22.535] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Aug2025 21:13:22.579] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[13Aug2025 21:13:22.582] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[13Aug2025 21:13:22.697] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[13Aug2025 21:13:22.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[13Aug2025 21:13:22.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[13Aug2025 21:13:22.723] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13Aug2025 21:13:22.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[13Aug2025 21:13:22.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[13Aug2025 21:13:22.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13Aug2025 21:13:22.776] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13Aug2025 21:13:23.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[13Aug2025 21:13:23.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[13Aug2025 21:13:23.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[13Aug2025 21:13:23.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
+[13Aug2025 21:13:23.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
+[13Aug2025 21:13:23.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
+[13Aug2025 21:13:23.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
+[13Aug2025 21:13:23.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Aug2025 21:13:23.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[13Aug2025 21:13:25.567] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Aug2025 21:13:26.695] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
+[13Aug2025 21:13:26.697] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
+[13Aug2025 21:13:27.550] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[13Aug2025 21:13:31.105] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[13Aug2025 21:13:31.108] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[13Aug2025 21:13:31.109] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[13Aug2025 21:13:31.113] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[13Aug2025 21:13:31.114] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[13Aug2025 21:13:31.115] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[13Aug2025 21:13:31.117] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[13Aug2025 21:13:31.118] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[13Aug2025 21:13:31.121] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[13Aug2025 21:13:31.122] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[13Aug2025 21:13:31.123] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[13Aug2025 21:13:31.126] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[13Aug2025 21:13:31.127] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[13Aug2025 21:13:31.130] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[13Aug2025 21:13:31.131] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[13Aug2025 21:13:31.135] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[13Aug2025 21:13:31.137] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[13Aug2025 21:13:31.139] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[13Aug2025 21:13:31.140] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[13Aug2025 21:13:31.141] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[13Aug2025 21:13:31.142] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[13Aug2025 21:13:31.144] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[13Aug2025 21:13:31.146] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[13Aug2025 21:13:31.149] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[13Aug2025 21:13:31.151] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[13Aug2025 21:13:31.152] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[13Aug2025 21:13:31.155] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[13Aug2025 21:13:31.156] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[13Aug2025 21:13:31.158] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[13Aug2025 21:13:31.159] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[13Aug2025 21:13:31.160] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[13Aug2025 21:13:31.165] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[13Aug2025 21:13:31.170] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[13Aug2025 21:13:31.177] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[13Aug2025 21:13:31.183] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[13Aug2025 21:13:31.189] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[13Aug2025 21:13:31.200] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[13Aug2025 21:13:31.425] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[13Aug2025 21:13:31.611] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1369 advancements
+[13Aug2025 21:13:31.616] [main/INFO] [Dungeon Crawl/]: Loading data...
+[13Aug2025 21:13:32.184] [main/INFO] [Dungeon Crawl/]: Done.
+[13Aug2025 21:13:32.198] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[13Aug2025 21:13:32.204] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Aug2025 21:13:32.258] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
+[13Aug2025 21:13:32.259] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
+[13Aug2025 21:13:32.260] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
+[13Aug2025 21:13:32.260] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[13Aug2025 21:13:32.261] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
+[13Aug2025 21:13:32.261] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
+[13Aug2025 21:13:32.262] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
+[13Aug2025 21:13:32.262] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[13Aug2025 21:13:32.263] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[13Aug2025 21:13:32.264] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[13Aug2025 21:13:32.265] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[13Aug2025 21:13:32.265] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[13Aug2025 21:13:32.268] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
+[13Aug2025 21:13:32.269] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[13Aug2025 21:13:32.270] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
+[13Aug2025 21:13:32.272] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[13Aug2025 21:13:32.273] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
+[13Aug2025 21:13:32.274] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
+[13Aug2025 21:13:32.275] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[13Aug2025 21:13:32.275] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
+[13Aug2025 21:13:32.278] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
+[13Aug2025 21:13:32.278] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
+[13Aug2025 21:13:32.279] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
+[13Aug2025 21:13:32.279] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
+[13Aug2025 21:13:32.279] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
+[13Aug2025 21:13:32.280] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
+[13Aug2025 21:13:32.280] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
+[13Aug2025 21:13:32.281] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
+[13Aug2025 21:13:32.281] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
+[13Aug2025 21:13:32.282] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
+[13Aug2025 21:13:33.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Aug2025 21:13:33.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Aug2025 21:13:33.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Aug2025 21:13:33.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Aug2025 21:13:33.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Aug2025 21:13:33.356] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Aug2025 21:13:33.495] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Aug2025 21:13:33.496] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Aug2025 21:13:33.498] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Aug2025 21:13:33.499] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Aug2025 21:13:33.620] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Aug2025 21:13:33.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Aug2025 21:13:41.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Aug2025 21:13:47.850] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:47.922] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:47.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:47.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:47.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.021] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.049] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.132] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.157] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.174] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.495] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.547] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:48.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:49.436] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:49.923] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:50.423] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:50.977] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:51.427] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Aug2025 21:13:52.009] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10587 ms
+[13Aug2025 21:13:52.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.477s)! For help, type "help"
+[13Aug2025 21:13:52.102] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Aug2025 21:13:52.116] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
+[13Aug2025 21:18:30.261] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOAgod[/127.170.192.167:39243] logged in with entity id 153 at (5758.891342718623, 64.46634750372172, 5359.921180049208)
+[13Aug2025 21:18:30.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod joined the game
+[13Aug2025 21:18:30.519] [Server thread/INFO] [Jade/]: Syncing config to YOAgod (8a00082b-a12d-3e52-b964-0d29f1783adb)
+[13Aug2025 21:18:33.824] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3743ms or 74 ticks behind
+[13Aug2025 21:18:34.605] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
+[13Aug2025 21:18:52.594] [Worker-Main-10/INFO] [citadel/]: vanilla surface rule behavior unchanged
