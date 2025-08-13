@@ -335,3 +335,8 @@
 [13Aug2025 23:02:53.708] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
 [13Aug2025 23:03:22.790] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
 [13Aug2025 23:03:22.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 23:05:35.047] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:58115] logged in with entity id 18710 at (5701.681013366428, 103.16610926093821, 5138.597098834691)
+[13Aug2025 23:05:35.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
+[13Aug2025 23:05:35.225] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[13Aug2025 23:10:05.388] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
+[13Aug2025 23:10:05.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
