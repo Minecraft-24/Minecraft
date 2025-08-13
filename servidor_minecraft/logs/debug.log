@@ -3025,3 +3025,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [13Aug2025 21:28:55.844] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [13Aug2025 21:28:55.857] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [13Aug2025 21:31:28.404] [Worker-Main-20/DEBUG] [com.brutalbosses.BrutalBosses/]: Spawning brutalbosses:strayboss at BlockPos{x=5964, y=-50, z=5082} at Chest with:minecraft:chests/simple_dungeon
+[13Aug2025 21:33:20.066] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[13Aug2025 21:33:55.914] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Aug2025 21:33:55.938] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Aug2025 21:38:00.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Spider
+[13Aug2025 21:38:01.997] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[13Aug2025 21:38:02.001] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[13Aug2025 21:38:55.812] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Aug2025 21:38:55.818] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
