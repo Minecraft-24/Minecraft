@@ -340,3 +340,9 @@
 [13Aug2025 23:05:35.225] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
 [13Aug2025 23:10:05.388] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Afixion lost connection: Timed out
 [13Aug2025 23:10:05.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion left the game
+[13Aug2025 23:19:58.830] [Server thread/INFO] [Scaling Health/]: Blight Skeleton was killed by YOAgod
+[13Aug2025 23:21:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod was slain by Skeleton
+[13Aug2025 23:21:06.114] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[13Aug2025 23:21:06.114] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[13Aug2025 23:22:10.438] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOAgod lost connection: Disconnected
+[13Aug2025 23:22:10.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOAgod left the game
