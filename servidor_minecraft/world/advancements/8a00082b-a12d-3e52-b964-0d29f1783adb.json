@@ -3382,6 +3382,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/auto_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2025-08-13 22:30:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-08-13 21:46:34 +0000"
@@ -3397,6 +3403,12 @@
   "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-08-13 21:40:27 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smoking_upgrade_from_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2025-08-13 22:30:42 +0000"
     },
     "done": true
   },
@@ -3619,6 +3631,12 @@
   "sophisticatedbackpacks:recipes/misc/alchemy_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-08-13 21:40:27 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/blasting_upgrade_from_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2025-08-13 22:30:42 +0000"
     },
     "done": true
   },

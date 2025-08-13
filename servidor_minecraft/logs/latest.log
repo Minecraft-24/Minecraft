@@ -252,3 +252,4 @@
 [13Aug2025 22:10:36.498] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Afixion[/127.119.241.5:38597] logged in with entity id 9744 at (5697.140573181642, 101.0, 5136.204897113959)
 [13Aug2025 22:10:36.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Afixion joined the game
 [13Aug2025 22:10:36.614] [Server thread/INFO] [Jade/]: Syncing config to Afixion (188a9d9a-0bca-36a3-9c92-c2d81b1514e0)
+[13Aug2025 22:30:09.140] [Server thread/ERROR] [mezz.jei.common.transfer.BasicRecipeTransferHandlerServer/]: Tried to transfer recipe but was given an empty inventory slot as an ingredient source: 43
